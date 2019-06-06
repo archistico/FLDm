@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LuxArchistico
+</name>
+</assembly>
+<members>
+<member name="P:LuxArchistico.My.Resources.Resources.ResourceManager">
+	<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member><member name="P:LuxArchistico.My.Resources.Resources.Culture">
+	<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member><member name="P:LuxArchistico.My.Resources.Resources.bgHome">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LuxArchistico.My.Resources.Resources.FFA">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LuxArchistico.My.Resources.Resources.FFB">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LuxArchistico.My.Resources.Resources.PSI">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:LuxArchistico.My.Resources.Resources">
+	<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.DestinazioneDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.MaterialeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.TrasparenzaVetroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.PuliziaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.DestinazioneRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.MaterialeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.TrasparenzaVetroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.PuliziaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.DestinazioneRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.MaterialeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.TrasparenzaVetroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS.PuliziaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LuxArchistico.FLDmDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDSTableAdapters.DestinazioneTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDSTableAdapters.MaterialeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDSTableAdapters.TrasparenzaVetroTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDSTableAdapters.PuliziaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:LuxArchistico.FLDmDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(LuxArchistico.FLDmDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:LuxArchistico.FLDmDSTableAdapters.TableAdapterManager.UpdateInsertedRows(LuxArchistico.FLDmDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:LuxArchistico.FLDmDSTableAdapters.TableAdapterManager.UpdateDeletedRows(LuxArchistico.FLDmDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:LuxArchistico.FLDmDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:LuxArchistico.FLDmDSTableAdapters.TableAdapterManager.UpdateAll(LuxArchistico.FLDmDS)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:LuxArchistico.FLDmDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:LuxArchistico.FLDmDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:LuxArchistico.FLDmDSTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

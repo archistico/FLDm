@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB298BE5-F4FA-49CC-BF7B-F8F3C4542EFE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LuxArchistico.My.MyApplication</StartupObject>
+    <RootNamespace>LuxArchistico</RootNamespace>
+    <AssemblyName>LuxArchistico</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LuxArchistico.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LuxArchistico.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LuxArchistico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="FLDmDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FLDmDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalcolaAf.Designer.vb">
+      <DependentUpon>frmCalcolaAf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalcolaAf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalcolaFLDm.Designer.vb">
+      <DependentUpon>frmCalcolaFLDm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalcolaFLDm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiediPSI.Designer.vb">
+      <DependentUpon>frmChiediPSI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiediPSI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelpFFA.Designer.vb">
+      <DependentUpon>frmHelpFFA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelpFFA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelpFFB.Designer.vb">
+      <DependentUpon>frmHelpFFB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelpFFB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelpPSI.Designer.vb">
+      <DependentUpon>frmHelpPSI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelpPSI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.vb">
+      <DependentUpon>frmHome.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moduloVariabili.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCalcolaFLDm.resx">
+      <DependentUpon>frmCalcolaFLDm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiediPSI.resx">
+      <DependentUpon>frmChiediPSI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelpFFA.resx">
+      <DependentUpon>frmHelpFFA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelpFFB.resx">
+      <DependentUpon>frmHelpFFB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelpPSI.resx">
+      <DependentUpon>frmHelpPSI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="FLDmDS.xsc">
+      <DependentUpon>FLDmDS.xsd</DependentUpon>
+    </None>
+    <None Include="FLDmDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FLDmDS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FLDmDS.xss">
+      <DependentUpon>FLDmDS.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FLDmDB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LuxArchistico.ico" />
+    <None Include="Resources\PSI.png" />
+    <None Include="Resources\FFA.png" />
+    <None Include="Resources\FFB.png" />
+    <None Include="Resources\bgHome.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

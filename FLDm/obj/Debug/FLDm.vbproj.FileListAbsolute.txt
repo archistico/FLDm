@@ -1,0 +1,16 @@
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Debug\FLDmDB.accdb
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Debug\FLDm.exe.config
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Debug\FLDm.exe
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Debug\FLDm.pdb
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Debug\FLDm.xml
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.frmCalcolaFLDm.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.frmHome.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.Resources.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.vbproj.GenerateResource.Cache
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.exe
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.xml
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.pdb
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Debug\itextsharp.dll
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.vbprojResolveAssemblyReference.cache
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.frmHelpFFB.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Debug\FLDm.frmHelpFFA.resources

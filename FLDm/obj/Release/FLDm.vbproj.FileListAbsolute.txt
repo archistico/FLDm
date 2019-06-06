@@ -1,0 +1,17 @@
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Release\FLDmDB.accdb
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\FLDm.vbprojResolveAssemblyReference.cache
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\FLDm.vbproj.GenerateResource.Cache
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Release\LuxArchistico.exe.config
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Release\LuxArchistico.exe
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Release\LuxArchistico.pdb
+D:\CloudStation\Programmazione\FLDm\FLDm\bin\Release\LuxArchistico.xml
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.frmCalcolaFLDm.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.frmChiediPSI.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.frmHelpFFA.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.frmHelpFFB.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.frmHelpPSI.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.frmHome.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.Resources.resources
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.exe
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.xml
+D:\CloudStation\Programmazione\FLDm\FLDm\obj\Release\LuxArchistico.pdb
